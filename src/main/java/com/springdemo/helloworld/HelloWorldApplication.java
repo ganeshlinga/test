@@ -14,7 +14,6 @@ public class HelloWorldApplication {
         return "HelloWorldApplication";
     }
 
-
     public static void main(String[] args) {
         SpringApplication.run(HelloWorldApplication.class, args);
     }
