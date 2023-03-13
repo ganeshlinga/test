@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloWorldApplication {
 
+
     @GetMapping("/Welcome")
     public String Welcome() {
         return "HelloWorldApplication";
